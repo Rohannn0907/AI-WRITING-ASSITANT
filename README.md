@@ -1,6 +1,19 @@
-# AI Writing Assistant
+# WritePoint
 
-React + Flask app that rewrites text in different tones using the Google Gemini API.
+WritePoint is a full-stack AI writing assistant that helps users transform rough text into polished writing. Users can paste their text, choose a tone such as professional, casual, creative, or concise, and generate an improved version using Google Gemini.
+
+The project is built with a React frontend and a Flask backend. The Gemini API key is stored securely on the server using environment variables, so private credentials are never exposed in the browser.
+
+## Features
+
+- Improve text using Google Gemini
+- Choose between professional, casual, creative, and concise tones
+- React-based responsive user interface
+- Flask API backend
+- Secure API key handling with `.env`
+- Input validation and basic rate limiting
+- Light and dark theme support
+
 
 ## Security
 
